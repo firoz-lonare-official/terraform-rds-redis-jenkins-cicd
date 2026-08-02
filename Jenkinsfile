@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'git 'https://github.com/firoz-lonare-official/terraform-rds-redis-jenkins-cicd.git''
+                git 'https://github.com/firoz-lonare-official/terraform-rds-redis-jenkins-cicd.git'
             }
         }
 
